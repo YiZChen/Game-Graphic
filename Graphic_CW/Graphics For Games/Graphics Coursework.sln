@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nclgl", "..\nclgl\nclgl.vcxproj", "{98D6B51B-CB0A-4389-ADC6-24082B967C3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graphics Coursework", "Graphics Coursework", "{B12FA29E-1613-4E55-9C1D-B7DCD8A760D8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphicsCoursework", "Graphics Coursework\GraphicsCoursework.vcxproj", "{909A2CFC-6E55-4776-8B60-93B44103A9CF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F} = {98D6B51B-CB0A-4389-ADC6-24082B967C3F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F}.Debug|Win32.Build.0 = Debug|Win32
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F}.Release|Win32.ActiveCfg = Release|Win32
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F}.Release|Win32.Build.0 = Release|Win32
+		{909A2CFC-6E55-4776-8B60-93B44103A9CF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{909A2CFC-6E55-4776-8B60-93B44103A9CF}.Debug|Win32.Build.0 = Debug|Win32
+		{909A2CFC-6E55-4776-8B60-93B44103A9CF}.Release|Win32.ActiveCfg = Release|Win32
+		{909A2CFC-6E55-4776-8B60-93B44103A9CF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{909A2CFC-6E55-4776-8B60-93B44103A9CF} = {B12FA29E-1613-4E55-9C1D-B7DCD8A760D8}
+	EndGlobalSection
+EndGlobal
